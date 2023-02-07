@@ -1,12 +1,17 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- <router-link to="/about">About</router-link> | -->
+    <router-link to="/search">Search</router-link>
+    <!-- <router-link to="/details">Details</router-link> -->
   </nav>
   <router-view/>
 </template>
 
 <style>
+* {
+  font-family: 'Poppins', sans-serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
