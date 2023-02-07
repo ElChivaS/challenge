@@ -52,9 +52,6 @@ import router from '@/router';
 </script>
 
 <style>
-    /* .btn-header {
-        gap: 23px
-    } */
     .item-container {
         display: flex;
         flex-direction: column;
